@@ -1,0 +1,18 @@
+generated: '2026-08-21'
+method: searched
+source: https://www.probiocdmo.com/online_request/general
+plan_count: 0
+plans: []
+pricing_model: quote-only
+note: >-
+  ProBio publishes no pricing page, no rate card, and no self-serve plans. Every engagement is a
+  bespoke CDMO services contract quoted through the "Contact Us / online request" form
+  (https://www.probiocdmo.com/online_request/general, HTTP 200) or a regional sales email. The
+  sitemap (213 URLs, https://www.probiocdmo.com/sitemap.xml, HTTP 200) contains no pricing, plans,
+  or tiers page. plan_count: 0 is a measured absence, not an unchecked field, and NO Pricing
+  pointer is emitted in apis.yml because no pricing page exists to point at.
+evidence:
+- url: https://www.probiocdmo.com/online_request/general
+  status: 200
+- url: https://www.probiocdmo.com/sitemap.xml
+  status: 200

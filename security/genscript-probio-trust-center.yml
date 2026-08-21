@@ -1,0 +1,57 @@
+generated: '2026-08-21'
+method: searched
+source: https://www.probiocdmo.com/information-security.html
+trust_center:
+  url: https://www.probiocdmo.com/information-security.html
+  http_status: 200
+  title: Information Security & Privacy Policy | ISO 27001 & NIST Compliant - ProBio CDMO
+  hosted_by: first-party (company website page, not a hosted trust-center platform)
+certifications: []
+note: >-
+  ProBio publishes a first-party information-security and privacy program page, but it does NOT
+  publish a third-party certification, attestation report, or certificate number. The page states
+  the program is "guided by the core principles of the NIST Cybersecurity Framework and ISO 27001
+  standards" — an alignment claim, not an audited certification, and it is recorded here as such.
+  certifications[] is deliberately empty because no attestation is published.
+standards_referenced:
+- id: iso-27001
+  name: ISO/IEC 27001
+  claim: aligned
+  evidence: >-
+    "guided by the core principles of the NIST Cybersecurity Framework and ISO 27001 standards"
+  attested: false
+- id: nist-csf
+  name: NIST Cybersecurity Framework
+  claim: aligned
+  evidence: >-
+    "guided by the core principles of the NIST Cybersecurity Framework and ISO 27001 standards"
+  attested: false
+program:
+  data_security_system:
+  - definition
+  - identification
+  - control
+  - supervision
+  - practice
+  incident_response:
+    published: true
+    reporting_channel: internal — employees report to the Information Security Department
+    public_disclosure_channel: none published
+  privacy:
+    policy_url: https://www.probiocdmo.com/privacy_policy.html
+    cookies_policy_url: https://www.probiocdmo.com/cookies-policy.html
+    commitments:
+    - minimize collection of customer data
+    - inform customers of the scope of data use
+    - allow customers to delete personal data
+    - safe and stable data storage
+  publications:
+  - name: Data Security White Paper
+    note: referenced on the page; gated behind a request/download link
+vulnerability_disclosure:
+  public_program: false
+  note: >-
+    No public vulnerability disclosure policy, security@ address, bug bounty, or /.well-known/
+    security.txt was found. /.well-known/security.txt returns HTTP 403 (the whole /.well-known/
+    directory is blocked at the origin). Incident reporting described on the page is an internal
+    employee channel only, so NO Security / VulnerabilityDisclosure pointer is emitted.

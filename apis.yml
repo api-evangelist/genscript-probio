@@ -1,7 +1,18 @@
 aid: genscript-probio
 name: Genscript Probio
-description: 'Genscript Probio is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  GenScript ProBio (ProBio) is the biologics and cell & gene therapy contract development and
+  manufacturing organization (CDMO) segment of GenScript Biotech Corporation (HKEX 1548), operating
+  from sites in the United States, the Netherlands, South Korea, Hong Kong, Shanghai, Nanjing and
+  Zhenjiang. It provides end-to-end drug-discovery-to-commercialization services covering antibody
+  and ADC discovery, antibody engineering and humanization, developability assessment, cell line
+  development, bioanalytical and bioassay services, process development, and cGMP clinical and
+  commercial manufacturing of recombinant proteins, plasmid DNA, lentiviral and AAV viral vectors,
+  mRNA and cell therapies, having supported more than 150 IND approvals since 2017. ProBio is a
+  laboratory and manufacturing services business rather than a software vendor: it publishes no
+  developer portal, no API reference and no machine-readable contract, and customer engagement runs
+  through a quote request form and an authenticated customer account area.
+image: https://www.probiocdmo.com/gsfiles/j/img/logo.png
 url: https://raw.githubusercontent.com/api-evangelist/genscript-probio/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +23,14 @@ created: '2026-08-21'
 modified: '2026-08-21'
 tags:
 - Company
+- Biotechnology
+- Life Sciences
+- Pharmaceuticals
+- Contract Manufacturing
+- CDMO
+- Cell and Gene Therapy
+- Biologics
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +38,54 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/genscript-probio-domain-security.yml
 - type: Website
-  url: https://www.hiive.com/securities/genscript-probio-stock
+  url: https://www.probiocdmo.com/
+- type: About
+  url: https://www.probiocdmo.com/about-us.html
+- type: Support
+  url: https://www.probiocdmo.com/online_request/general
+- type: SignUp
+  url: https://www.probiocdmo.com/customer/signup
+- type: Login
+  url: https://www.probiocdmo.com/customer/login
+- type: Blog
+  url: https://www.probiocdmo.com/special/news
+- type: TermsOfService
+  url: https://www.probiocdmo.com/standard_t_c.html
+- type: PrivacyPolicy
+  url: https://www.probiocdmo.com/privacy_policy.html
+- type: LLMsTxt
+  url: llms/genscript-probio-llms.txt
+- type: Plans
+  url: plans/genscript-probio-plans-pricing.yml
+- type: TrustCenter
+  url: https://www.probiocdmo.com/information-security.html
+- type: Compliance
+  url: security/genscript-probio-trust-center.yml
+x-enrichment:
+  date: '2026-08-21'
+  status: minimal
+  artifacts_added: 5
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    GenScript ProBio is a biologics and cell & gene therapy contract manufacturer whose product is
+    laboratory and cGMP manufacturing services, not software — its 213-URL sitemap contains no
+    developer, API, or integration page, api./developer./docs. subdomains do not resolve, no GitHub
+    organization exists, and the only account surface is a quote-request form and a customer login.
+  evidence:
+  - url: https://www.probiocdmo.com/openapi.json
+    status: 404
+  - url: https://www.probiocdmo.com/llms.txt
+    status: 404
+  - url: https://www.probiocdmo.com/.well-known/agent-card.json
+    status: 403
+  - url: https://www.probiocdmo.com/sitemap.xml
+    status: 200
+  - url: https://api.github.com/orgs/genscript-probio
+    status: 404
+  checked: '2026-08-21'
