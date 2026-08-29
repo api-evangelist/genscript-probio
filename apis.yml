@@ -12,6 +12,17 @@ description: >-
   laboratory and manufacturing services business rather than a software vendor: it publishes no
   developer portal, no API reference and no machine-readable contract, and customer engagement runs
   through a quote request form and an authenticated customer account area.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://www.probiocdmo.com/gsfiles/j/img/logo.png
 url: https://raw.githubusercontent.com/api-evangelist/genscript-probio/refs/heads/main/apis.yml
 x-type: company
