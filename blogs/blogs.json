@@ -2,6 +2,13 @@
   "repo": "genscript-probio",
   "feeds": [
     {
+      "source": "https://www.probiocdmo.com/special/news",
+      "feed_url": "https://www.probiocdmo.com/special/news",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
       "source": "https://www.probiocdmo.com/customer/login",
       "feed_url": "https://www.probiocdmo.com/customer/login",
       "title": "",
@@ -10,5 +17,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
